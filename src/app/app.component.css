@@ -4,7 +4,47 @@
     background-color: var(--blue-2);
     border-radius: 20px;
     box-shadow: 10px 10px 10px var(--dark-shadow);
+}
+
+.container .upper-data{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container .upper-data img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container .upper-data .weather-data{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-shadow);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.container .upper-data .weather-data .location{
+    color: var(--white);
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.container .upper-data .weather-data .temperature{
+    color: var(--white);
+    text-align: center;
+    font-size: 4em;
+    font-weight: 900;
+    padding: 25px;
 }
