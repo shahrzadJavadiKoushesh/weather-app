@@ -19,4 +19,4 @@ export class WeatherService {
       .set(environment.XRapidAPIKeyheaderName,environment.XRapidAPIKeyheaderValue),
     });
    }
-}
+  }
