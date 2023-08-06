@@ -15,7 +15,7 @@
     border-top-right-radius: 20px;
 }
 
-.container .upper-data img{
+.container .upper-data .img{
     position: absolute;
     top: 0;
     left: 0;
@@ -36,13 +36,14 @@
 }
 
 .container .upper-data .weather-data .location{
-    color: var(--white);
+    color: black;
     text-align: center;
     font-size: 1.2em;
+    font-weight: 900;
 }
 
 .container .upper-data .weather-data .temperature{
-    color: var(--white);
+    color: black;
     text-align: center;
     font-size: 4em;
     font-weight: 900;
@@ -108,6 +109,22 @@
     justify-content: flex-start;
     align-items: center;
     color: var(--white);
+}
+
+.search{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.search input{
+    background-color: var(--shadow-light);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 1em;
+    color: var(--dark-shadow);
+    font-size: 0.8em;
+    text-align: center;
 }
 
 
